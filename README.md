@@ -125,7 +125,7 @@ This analysis addresses several business questions, including:
 >
 > Displays the total number of customer records available for analysis.
 
-*(Insert Screenshot: Total_Customers.png)*
+![Total Customers](Screenshots/Total_Customers.png)
 
 ---
 
@@ -133,7 +133,7 @@ This analysis addresses several business questions, including:
 >
 > Compares customers who accepted and did not accept a personal loan.
 
-*(Insert Screenshot: 02_loan_distribution.png)*
+![Total Customers](Screenshots/Loan_Distribution.png)
 
 ---
 
@@ -141,23 +141,7 @@ This analysis addresses several business questions, including:
 >
 > Calculates the percentage of customers who accepted the bank's personal loan offer.
 
-*(Insert Screenshot: 03_loan_acceptance_rate.png)*
-
----
-
-> **Loan Acceptance by Education**
->
-> Identifies how education level influences personal loan acceptance.
-
-*(Insert Screenshot: 04_education_analysis.png)*
-
----
-
-> **Income Analysis**
->
-> Compares average customer income based on loan acceptance status.
-
-*(Insert Screenshot: 05_income_analysis.png)*
+![Total Customers](Screenshots/Loan_Acceptance_Rate.png)
 
 ---
 
@@ -165,7 +149,7 @@ This analysis addresses several business questions, including:
 >
 > Lists the highest-income customers to support customer segmentation.
 
-*(Insert Screenshot: 06_top_income_customers.png)*
+![Total Customers](Screenshots/Top10_Highest_Income_Customers.png)
 
 ---
 
