@@ -48,3 +48,151 @@ The objective of this project is to answer key business questions such as:
 - Filtering
 - Customer Segmentation
 - Business KPI Analysis
+
+- ---
+
+## 📁 Project Structure
+
+```
+bank-customer-data-analysis-sql
+│
+├── data
+│   └── bank_customer_data_cleaned.csv
+│
+├── database
+│   └── Bank_Customer_Analysis.db
+│
+├── sql
+│   └── analysis_queries.sql
+│
+├── screenshots
+│   ├── 01_total_customers.png
+│   ├── 02_loan_distribution.png
+│   ├── 03_loan_acceptance_rate.png
+│   ├── 04_education_analysis.png
+│   ├── 05_income_analysis.png
+│   └── 06_top_income_customers.png
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
+---
+
+## ❓ Business Questions Answered
+
+This analysis addresses several business questions, including:
+
+- What is the total customer base?
+- What percentage of customers accepted a personal loan?
+- How does customer income influence loan acceptance?
+- Which education groups have the highest loan acceptance?
+- How are customers distributed across family sizes?
+- How widely are online banking and credit cards used?
+- Which customers have above-average income or mortgage values?
+- How can customers be segmented into income groups?
+
+---
+
+## 📈 Key Insights
+
+- Analyzed **5,000 customer records** to understand banking behavior.
+- Calculated the **personal loan acceptance rate** to evaluate campaign effectiveness.
+- Identified relationships between **income, education, and loan acceptance**.
+- Segmented customers into **low-, medium-, and high-income groups** using SQL.
+- Compared customer financial characteristics using aggregate analysis and subqueries.
+- Evaluated adoption of banking services such as **online banking, credit cards, securities accounts, and CD accounts**.
+
+---
+
+## 💻 SQL Techniques Used
+
+- Data Filtering (`WHERE`)
+- Sorting (`ORDER BY`)
+- Grouping (`GROUP BY`)
+- Aggregate Functions (`COUNT`, `SUM`, `AVG`, `MIN`, `MAX`)
+- Conditional Logic (`CASE`)
+- Subqueries
+- Aliases
+- Business KPI Calculations
+
+## 📷 Project Screenshots
+
+### Customer & Loan Analysis
+
+> **Total Customers**
+>
+> Displays the total number of customer records available for analysis.
+
+*(Insert Screenshot: 01_total_customers.png)*
+
+---
+
+> **Loan Distribution**
+>
+> Compares customers who accepted and did not accept a personal loan.
+
+*(Insert Screenshot: 02_loan_distribution.png)*
+
+---
+
+> **Loan Acceptance Rate**
+>
+> Calculates the percentage of customers who accepted the bank's personal loan offer.
+
+*(Insert Screenshot: 03_loan_acceptance_rate.png)*
+
+---
+
+> **Loan Acceptance by Education**
+>
+> Identifies how education level influences personal loan acceptance.
+
+*(Insert Screenshot: 04_education_analysis.png)*
+
+---
+
+> **Income Analysis**
+>
+> Compares average customer income based on loan acceptance status.
+
+*(Insert Screenshot: 05_income_analysis.png)*
+
+---
+
+> **Top Income Customers**
+>
+> Lists the highest-income customers to support customer segmentation.
+
+*(Insert Screenshot: 06_top_income_customers.png)*
+
+---
+
+## ▶️ How to Run This Project
+
+1. Clone this repository.
+2. Open the database using **DB Browser for SQLite**.
+3. Load the database file from the `database` folder.
+4. Open the SQL script located in the `sql` folder.
+5. Execute the queries individually or run the complete SQL script.
+
+---
+
+## 🚀 Future Improvements
+
+- Build an interactive Power BI dashboard using the same dataset.
+- Perform predictive analysis using Python and machine learning.
+- Design a relational database with multiple linked tables.
+- Optimize SQL queries for larger datasets.
+- Create stored procedures and views using MySQL or PostgreSQL.
+
+---
+
+## 👩‍💻 Author
+
+**Geethu G**
+
+M.Sc. Physics | Data Analytics Enthusiast
+
+**Skills:** SQL • Python • Excel • Power BI • Data Analysis
