@@ -125,7 +125,7 @@ This analysis addresses several business questions, including:
 >
 > Displays the total number of customer records available for analysis.
 
-*(Insert Screenshot: 01_total_customers.png)*
+*(Insert Screenshot: Total_Customers.png)*
 
 ---
 
