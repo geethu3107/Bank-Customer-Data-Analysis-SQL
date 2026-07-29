@@ -53,31 +53,30 @@ The objective of this project is to answer key business questions such as:
 
 ## 📁 Project Structure
 
-```
+```text
 bank-customer-data-analysis-sql
 │
-├── data
-│   └── bank_customer_data_cleaned.csv
-│
-├── database
+├── Database
 │   └── Bank_Customer_Analysis.db
 │
-├── sql
-│   └── analysis_queries.sql
-│
-├── screenshots
+├── Screenshots
 │   ├── 01_total_customers.png
 │   ├── 02_loan_distribution.png
 │   ├── 03_loan_acceptance_rate.png
-│   ├── 04_education_analysis.png
-│   ├── 05_income_analysis.png
-│   └── 06_top_income_customers.png
+│   ├── 04_customers_by_education.png
+│   ├── 05_average_income_by_loan_status.png
+│   ├── 06_online_banking_usage.png
+│   ├── 07_top_10_highest_income_customers.png
+│   └── 08_customers_above_average_income.png
 │
-├── README.md
-├── LICENSE
-└── .gitignore
+├── data
+│   ├── Bank_Personal_Loan_Modelling.csv
+│   └── Bank_Customer_Data_Cleaned.csv
+│
+├── analysis_queries.sql
+│
+└── README.md
 ```
-
 ---
 
 ## ❓ Business Questions Answered
@@ -149,7 +148,7 @@ This analysis addresses several business questions, including:
 >
 > Lists the highest-income customers to support customer segmentation.
 
-![Total Customers](Screenshots/Top10_Highest_Income_Customers.png)
+![Total Customers](Screenshots/Top10_Highest_Income_Costumers.png)
 
 ---
 
